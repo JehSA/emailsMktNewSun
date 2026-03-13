@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-mail Marketing</title>
+</head>
+
+<body>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+        <tr>
+            <td align="center">
+                <!-- Container principal -->
+                <table border="0" cellpadding="0" cellspacing="0" style="max-width:600px; width:100%;">
+
+                    <!-- Header -->
+                    <tr>
+                        <td bgcolor="#0C366A" align="center" <img src="/cafeComSindicoEmail2/topo.svg" width="150"
+                            style="display:block; margin:20px auto; border:0;" alt="Logo New Sun Energy">
+                        </td>
+                    </tr>
+
+                    <!-- Imagem Banner -->
+                    <tr>
+                        <td>
+                            <a href="https://newsun.energy/" target="_blank">
+                                <img src="{{ contact.newsletter_banner_image_url }}" width="600"
+                                    style="width:100%; max-width:600px; display:block; border:0;" alt="New Sun Energy">
+                            </a>
+                        </td>
+                    </tr>
+
+                    <!-- Conteúdo -->
+                    <tr>
+                        <td style="padding:0px 20px; font-family:Arial, Helvetica, sans-serif;">
+
+                            <!-- Saudação (com nome) -->
+                            <p style="font-size:18px; line-height:1.6; margin:20px 0; color:#000000;">
+                                Bom dia, {{ contact.firstname }}!
+                            </p>
+
+                            <!-- Parágrafo 1 -->
+                            <p style="font-size:18px; line-height:1.6; margin:0 0 20px 0; color:#000000;">
+                                {{ contact.newsletter_paragrafo_1 }}
+                            </p>
+
+                            <!-- Botão 1 -->
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center"
+                                width="100%" style="margin: 10% 0 10% 0;">
+                                <tr>
+                                    <td align="center">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0">
+                                            <tr>
+                                                <td align="center" bgcolor="#0C366A"
+                                                    style="border-radius: 5px; padding: 15px 25px;">
+                                                    <a href="{{ contact.newsletter_cta }}" target="_blank"
+                                                        style="color:#ffffff; text-decoration:none; font-family:Arial, sans-serif; font-size:16px; font-weight:bold; display:inline-block;">
+                                                        {{ contact.newsletter_texto_cta }}
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <!-- Parágrafo 2 / despedida -->
+                            <p style="font-size:18px; line-height:1.6; margin:0 0 20px 0; color:#000000;">
+                                {{ contact.newsletter_paragrafo_2 }}
+                            </p>
+
+                            <br><br>
+
+                            <!-- Assinatura -->
+                            <p style="padding-bottom:20%; font-size:18px; line-height:1.6; margin:0; color:#000000;">
+                                {{ contact.newsletter_assinatura }}
+                            </p>
+                        </td>
+                    </tr>
+
+                    <!-- Footer -->
+                    <tr>
+                        <td bgcolor="#0C366A" align="center"
+                            style="padding:30px 0; font-family:Arial, Helvetica, sans-serif;">
+                            <a href="https://newsun.energy/" target="_blank">
+                                <img src="https://res.cloudinary.com/do0vajfl4/image/upload/v1770129229/logo-new-sun.png"
+                                    width="150" style="display:block; margin:0 auto; border:0;"
+                                    alt="Logo New Sun Energy">
+                            </a>
+
+                            <!-- Ícones sociais -->
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center"
+                                style="margin-top:15px;">
+                                <tr>
+                                    <td align="center" style="padding: 0 6px;">
+                                        <a href="https://www.linkedin.com/company/newsun-energy-group" target="_blank">
+                                            <img src="https://res.cloudinary.com/do0vajfl4/image/upload/v1770662356/jd5okttxp26etkroejce.png"
+                                                alt="LinkedIn" width="24" style="display:block; border:0;">
+                                        </a>
+                                    </td>
+                                    <td align="center" style="padding: 0 6px;">
+                                        <a href="https://www.instagram.com/newsunenergygroup/" target="_blank">
+                                            <img src="https://res.cloudinary.com/do0vajfl4/image/upload/v1770662358/jbr6rsoqfrhehebra1c1.png"
+                                                alt="Instagram" width="24" style="display:block; border:0;">
+                                        </a>
+                                    </td>
+                                    <td align="center" style="padding: 0 6px;">
+                                        <a href="https://www.youtube.com/channel/UCWvJ-BkxYiZBGVwHH_aQf7w"
+                                            target="_blank">
+                                            <img src="https://res.cloudinary.com/do0vajfl4/image/upload/v1770662356/kpnagw8epcubr7moywt2.png"
+                                                alt="YouTube" width="24" style="display:block; border:0;">
+                                        </a>
+                                    </td>
+                                    <td align="center" style="padding: 0 6px;">
+                                        <a href="https://www.facebook.com/NewSunEnergyBrazil" target="_blank">
+                                            <img src="https://res.cloudinary.com/do0vajfl4/image/upload/v1770662386/wh3gswhzhr7j5ugnpc74.png"
+                                                alt="Facebook" width="24" style="display:block; border:0;">
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
